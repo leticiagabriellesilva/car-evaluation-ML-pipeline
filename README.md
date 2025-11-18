@@ -51,15 +51,15 @@ e clique em GO! Assim você consegue ver as células separadas.
 
 1. Abra o Google Colab e crie um Novo notebook (```.ipynb```).
 
-2. Copie o código fornecido (Células 3, 5, 7 e 9) para as células de ```+ Código``` do seu notebook.
+2. Copie o código fornecido para as células de ```+ Código``` do seu notebook.
 
-3. Célula de Conexão (Célula 3):
+3. Célula de Conexão (Célula 2):
 
   - Execute a primeira célula que contém o comando ```drive.mount('/content/drive')```.
 
   - Um pop-up pedirá autorização. Clique em *"Conectar ao Google Drive"* e conceda as permissões necessárias.
 
-  - Ajuste o Caminho: Edite a variável ```caminho_arquivo``` na Célula 3 para refletir o local exato do seu arquivo ```car.data``` no Google Drive.
+  - Ajuste o Caminho: Edite a variável ```caminho_arquivo``` para refletir o local exato do seu arquivo ```car.data``` no Google Drive.
 
 ```dash
 # Exemplo de ajuste:
@@ -74,7 +74,7 @@ Execute as células de código uma por uma, de cima para baixo. Use o atalho ```
 
 | Célula | Objetivo                                                       | Verificação                                               |
 |--------|----------------------------------------------------------------|-----------------------------------------------------------|
-| 3      | Montagem do Drive e Carregamento dos Dados                     | Mensagem de sucesso e exibição de `df.head()`            |
-| 5      | Transformação (Encoding e Shuffle) e Divisão (Treino/Teste)    | Exibição dos tamanhos finais dos subconjuntos            |
-| 7      | Treinamento e Avaliação                                        | Exibição da Acurácia e do gráfico de Matriz de Confusão  |
-| 9      | Predição de Teste                                              | Exibição da classificação final (UNACC, ACC, GOOD, VGOOD) |
+| 2      | Montagem do Drive e Carregamento dos Dados                     | Mensagem de sucesso e exibição de `df.head()`            |
+| 3      | Transformação (Encoding e Shuffle) e Divisão (Treino/Teste)    | Exibição dos tamanhos finais dos subconjuntos            |
+| 4      | Treinamento e Avaliação                                        | Exibição da Acurácia e do gráfico de Matriz de Confusão  |
+| 5      | Predição de Teste                                              | Exibição da classificação final (UNACC, ACC, GOOD, VGOOD) |
