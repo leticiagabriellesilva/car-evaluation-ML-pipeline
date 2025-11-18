@@ -31,6 +31,16 @@ O objetivo é treinar um modelo de Árvore de Decisão para classificar a aceita
 ### 🚀 Como Reproduzir a Execução
 Siga os passos abaixo para executar o notebook no seu ambiente:
 
+**Observação:** caso o github não esteja carregando a preview do notebook, cole essa url:
+```bash
+https://github.com/leticiagabriellesilva/car-evaluation-ML-pipeline/blob/main/pipeline_avaliacao_carros.ipynb
+```
+no site 
+```bash
+https://nbviewer.org/ 
+```
+e clique em GO! Assim você consegue ver as células separadas.
+
 #### Passo 1: Preparação dos Dados no Google Drive
 
 1. Faça o upload do arquivo de dados ```car.data``` para o seu Google Drive.
